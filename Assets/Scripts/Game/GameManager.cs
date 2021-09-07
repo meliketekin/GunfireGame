@@ -136,7 +136,7 @@ Debug.Log(firstMultiplier);
             rightText.text = (trueAnswer + Random.Range(1, 10)).ToString();
 
         }
-        else if (randomValue <= 20)
+        else if (randomValue <= 40 && randomValue >20)
         {
             middleText.text = trueAnswer.ToString();
             leftText.text = (trueAnswer + Random.Range(1, 10)).ToString();
